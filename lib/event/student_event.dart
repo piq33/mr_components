@@ -1,4 +1,4 @@
-import 'package:bsl/model/school_models.dart';
+import 'package:components/model/school_models.dart';
 
 class StudentSyncEvent {
   final StudentModel student;

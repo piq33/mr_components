@@ -1,8 +1,8 @@
 import 'dart:io';
 
-import 'package:bsl/api/interceptors/bsl_interceptor.dart';
-import 'package:bsl/config.dart';
-import 'package:bsl/log/global_log.dart';
+import 'package:components/api/interceptors/bsl_interceptor.dart';
+import 'package:components/config.dart';
+import 'package:components/log/global_log.dart';
 import 'package:dio/dio.dart';
 import 'package:dio/io.dart';
 import 'package:dio_smart_retry/dio_smart_retry.dart';
@@ -67,7 +67,7 @@ class BslService {
       ),
     );
     dio.interceptors.add(
-     TalkerDioLogger(
+      TalkerDioLogger(
         talker: logger,
         settings: const TalkerDioLoggerSettings(
           printRequestHeaders: true,

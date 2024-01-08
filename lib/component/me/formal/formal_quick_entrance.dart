@@ -1,13 +1,13 @@
 import 'dart:collection';
 
-import 'package:bsl/log/global_log.dart';
-import 'package:bsl/management/services/repository_service.dart';
-import 'package:bsl/model/navigation_model.dart';
-import 'package:bsl/model/school_models.dart';
-import 'package:bsl/resource/assets.gen.dart';
-import 'package:bsl/theme/main_theme.dart';
-import 'package:bsl/theme/me_theme.dart';
-import 'package:bsl/widget/me/entrance_button.dart';
+import 'package:components/log/global_log.dart';
+import 'package:components/management/services/repository_service.dart';
+import 'package:components/model/navigation_model.dart';
+import 'package:components/model/school_models.dart';
+import 'package:components/resource/assets.gen.dart';
+import 'package:components/theme/main_theme.dart';
+import 'package:components/theme/me_theme.dart';
+import 'package:components/widget/me/entrance_button.dart';
 import 'package:dio/dio.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';

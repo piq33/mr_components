@@ -1,4 +1,4 @@
-import 'package:bsl/model/activity/activity_model.dart';
+import 'package:components/model/activity/activity_model.dart';
 import 'package:json_annotation/json_annotation.dart';
 
 class ActivityStatusJsonConverter

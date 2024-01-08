@@ -1,4 +1,4 @@
-import 'package:bsl/log/global_log.dart';
+import 'package:components/log/global_log.dart';
 import 'package:intl/intl.dart';
 import 'package:json_annotation/json_annotation.dart';
 

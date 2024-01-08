@@ -1,6 +1,6 @@
-import 'package:bsl/log/global_log.dart';
-import 'package:bsl/management/services/repository_service.dart';
-import 'package:bsl/theme/theme.dart';
+import 'package:components/log/global_log.dart';
+import 'package:components/management/services/repository_service.dart';
+import 'package:components/theme/theme.dart';
 import 'package:dio/dio.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';

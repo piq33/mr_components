@@ -1,10 +1,10 @@
-import 'package:bsl/model/common_model.dart';
-import 'package:bsl/model/diy_models.dart';
-import 'package:bsl/theme/diy_theme.dart';
-import 'package:bsl/theme/main_theme.dart';
-import 'package:bsl/widget/diy/gallery_card.dart';
-import 'package:bsl/widget/diy/purchase_info_card.dart';
-import 'package:bsl/widget/diy/purchase_notice_card.dart';
+import 'package:components/model/common_model.dart';
+import 'package:components/model/diy_models.dart';
+import 'package:components/theme/diy_theme.dart';
+import 'package:components/theme/main_theme.dart';
+import 'package:components/widget/diy/gallery_card.dart';
+import 'package:components/widget/diy/purchase_info_card.dart';
+import 'package:components/widget/diy/purchase_notice_card.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 

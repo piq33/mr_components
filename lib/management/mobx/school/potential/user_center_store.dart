@@ -1,6 +1,6 @@
-import 'package:bsl/log/global_log.dart';
-import 'package:bsl/model/activity/activity_model.dart';
-import 'package:bsl/repository/activity_repository.dart';
+import 'package:components/log/global_log.dart';
+import 'package:components/model/activity/activity_model.dart';
+import 'package:components/repository/activity_repository.dart';
 import 'package:dio/dio.dart';
 import 'package:mobx/mobx.dart';
 

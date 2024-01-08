@@ -1,11 +1,11 @@
 import 'dart:async';
 import 'dart:io';
 
-import 'package:bsl/api/service/common_service.dart';
-import 'package:bsl/model/bsl_response.dart';
-import 'package:bsl/model/common_model.dart';
-import 'package:bsl/model/navigation_model.dart';
-import 'package:bsl/model/zhaojiao_response.dart';
+import 'package:components/api/service/common_service.dart';
+import 'package:components/model/bsl_response.dart';
+import 'package:components/model/common_model.dart';
+import 'package:components/model/navigation_model.dart';
+import 'package:components/model/zhaojiao_response.dart';
 import 'package:dio/dio.dart';
 import 'package:intl/intl.dart';
 import 'package:package_info_plus/package_info_plus.dart';

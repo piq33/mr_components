@@ -1,5 +1,5 @@
-import 'package:bsl/model/common_model.dart';
-import 'package:bsl/model/notification_models.dart';
+import 'package:components/model/common_model.dart';
+import 'package:components/model/notification_models.dart';
 import 'package:json_annotation/json_annotation.dart';
 
 class PushTypeJsonConverter implements JsonConverter<PushType, String> {

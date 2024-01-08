@@ -1,5 +1,5 @@
-import 'package:bsl/model/converter/entrance_converter.dart';
-import 'package:bsl/model/converter/int2bool_converter.dart';
+import 'package:components/model/converter/entrance_converter.dart';
+import 'package:components/model/converter/int2bool_converter.dart';
 
 typedef OnEntranceModel = Function(AppEntranceModel entrance);
 

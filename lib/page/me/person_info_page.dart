@@ -1,5 +1,5 @@
-import 'package:bsl/component/me/person_info_body.dart';
-import 'package:bsl/management/services/student_service.dart';
+import 'package:components/component/me/person_info_body.dart';
+import 'package:components/management/services/student_service.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 

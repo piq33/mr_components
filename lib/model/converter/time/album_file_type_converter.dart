@@ -1,4 +1,4 @@
-import 'package:bsl/model/common_model.dart';
+import 'package:components/model/common_model.dart';
 import 'package:json_annotation/json_annotation.dart';
 
 // 时光的文件类型需要独立解析

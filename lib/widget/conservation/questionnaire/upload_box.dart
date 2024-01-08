@@ -1,9 +1,9 @@
 import 'dart:math';
 
-import 'package:bsl/model/common_model.dart';
-import 'package:bsl/router/gallery_route_utils.dart';
-import 'package:bsl/theme/conservation_theme.dart';
-import 'package:bsl/widget/common/cache_image.dart';
+import 'package:components/model/common_model.dart';
+import 'package:components/router/gallery_route_utils.dart';
+import 'package:components/theme/conservation_theme.dart';
+import 'package:components/widget/common/cache_image.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 

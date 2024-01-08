@@ -1,6 +1,6 @@
-import 'package:bsl/component/diy/diy_publish_body.dart';
-import 'package:bsl/model/diy_models.dart';
-import 'package:bsl/widget/common/default_appbar.dart';
+import 'package:components/component/diy/diy_publish_body.dart';
+import 'package:components/model/diy_models.dart';
+import 'package:components/widget/common/default_appbar.dart';
 import 'package:flutter/material.dart';
 
 /// diy最终发布页面

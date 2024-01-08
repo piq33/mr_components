@@ -1,4 +1,4 @@
-import 'package:bsl/model/push_model.dart';
+import 'package:components/model/push_model.dart';
 
 class PushInitEvent {}
 

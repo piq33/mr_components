@@ -1,4 +1,4 @@
-import 'package:bsl/theme/album_theme.dart';
+import 'package:components/theme/album_theme.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 

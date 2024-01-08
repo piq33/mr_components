@@ -1,14 +1,14 @@
 import 'dart:io';
 
-import 'package:bsl/api/bsl_api.dart';
-import 'package:bsl/log/global_log.dart';
-import 'package:bsl/model/common_model.dart';
-import 'package:bsl/resource/colors.gen.dart';
-import 'package:bsl/theme/main_theme.dart';
-import 'package:bsl/util/permission_utils.dart';
-import 'package:bsl/util/screen_utils.dart';
-import 'package:bsl/widget/media/media_bottom_picker.dart';
-import 'package:bsl/widget/media/record_bottom_sheet.dart';
+import 'package:components/api/bsl_api.dart';
+import 'package:components/log/global_log.dart';
+import 'package:components/model/common_model.dart';
+import 'package:components/resource/colors.gen.dart';
+import 'package:components/theme/main_theme.dart';
+import 'package:components/util/permission_utils.dart';
+import 'package:components/util/screen_utils.dart';
+import 'package:components/widget/media/media_bottom_picker.dart';
+import 'package:components/widget/media/record_bottom_sheet.dart';
 import 'package:dio/dio.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';

@@ -1,12 +1,12 @@
 import 'dart:async';
 
 import 'package:audioplayers/audioplayers.dart';
-import 'package:bsl/log/global_log.dart';
-import 'package:bsl/model/diy_models.dart';
-import 'package:bsl/router/route_observer.dart';
-import 'package:bsl/theme/diy_theme.dart';
-import 'package:bsl/theme/main_theme.dart';
-import 'package:bsl/util/date_utils.dart';
+import 'package:components/log/global_log.dart';
+import 'package:components/model/diy_models.dart';
+import 'package:components/router/route_observer.dart';
+import 'package:components/theme/diy_theme.dart';
+import 'package:components/theme/main_theme.dart';
+import 'package:components/util/date_utils.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 

@@ -1,9 +1,9 @@
 import 'dart:ui';
 
-import 'package:bsl/model/common_model.dart';
-import 'package:bsl/model/converter/datetime_converter.dart';
-import 'package:bsl/resource/assets.gen.dart';
-import 'package:bsl/util/list_utils.dart';
+import 'package:components/model/common_model.dart';
+import 'package:components/model/converter/datetime_converter.dart';
+import 'package:components/resource/assets.gen.dart';
+import 'package:components/util/list_utils.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
 
 part 'recipes_model.freezed.dart';

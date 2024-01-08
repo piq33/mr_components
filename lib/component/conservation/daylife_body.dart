@@ -1,10 +1,10 @@
-import 'package:bsl/log/global_log.dart';
-import 'package:bsl/management/mobx/conservation/daylife_store.dart';
-import 'package:bsl/theme/date_selector_theme.dart';
-import 'package:bsl/theme/main_theme.dart';
-import 'package:bsl/widget/common/date_selector.dart';
-import 'package:bsl/widget/common/empty.dart';
-import 'package:bsl/widget/conservation/daylife_item.dart';
+import 'package:components/log/global_log.dart';
+import 'package:components/management/mobx/conservation/daylife_store.dart';
+import 'package:components/theme/date_selector_theme.dart';
+import 'package:components/theme/main_theme.dart';
+import 'package:components/widget/common/date_selector.dart';
+import 'package:components/widget/common/empty.dart';
+import 'package:components/widget/conservation/daylife_item.dart';
 import 'package:chinese_number/chinese_number.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_mobx/flutter_mobx.dart';

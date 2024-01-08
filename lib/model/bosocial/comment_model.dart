@@ -1,9 +1,9 @@
-import 'package:bsl/model/bosocial_models.dart';
-import 'package:bsl/model/converter/bosocial/comment_type_converter.dart';
-import 'package:bsl/model/converter/bosocial/comment_user_type_converter.dart';
-import 'package:bsl/model/converter/bosocial/status_converter.dart';
-import 'package:bsl/model/converter/datetime_converter.dart';
-import 'package:bsl/model/converter/int2bool_converter.dart';
+import 'package:components/model/bosocial_models.dart';
+import 'package:components/model/converter/bosocial/comment_type_converter.dart';
+import 'package:components/model/converter/bosocial/comment_user_type_converter.dart';
+import 'package:components/model/converter/bosocial/status_converter.dart';
+import 'package:components/model/converter/datetime_converter.dart';
+import 'package:components/model/converter/int2bool_converter.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
 
 part 'comment_model.freezed.dart';

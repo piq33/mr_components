@@ -1,10 +1,10 @@
 import 'dart:math';
 
-import 'package:bsl/model/common_model.dart';
-import 'package:bsl/model/converter/childtask/resource_type_converter.dart';
-import 'package:bsl/model/converter/datetime_converter.dart';
-import 'package:bsl/model/converter/int2bool_converter.dart';
-import 'package:bsl/model/converter/relationship_converter.dart';
+import 'package:components/model/common_model.dart';
+import 'package:components/model/converter/childtask/resource_type_converter.dart';
+import 'package:components/model/converter/datetime_converter.dart';
+import 'package:components/model/converter/int2bool_converter.dart';
+import 'package:components/model/converter/relationship_converter.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
 
 part 'childtask_model.freezed.dart';

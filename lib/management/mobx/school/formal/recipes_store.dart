@@ -1,7 +1,7 @@
-import 'package:bsl/log/global_log.dart';
-import 'package:bsl/model/bsl_response.dart';
-import 'package:bsl/model/recipes_models.dart';
-import 'package:bsl/repository/recipes_repository.dart';
+import 'package:components/log/global_log.dart';
+import 'package:components/model/bsl_response.dart';
+import 'package:components/model/recipes_models.dart';
+import 'package:components/repository/recipes_repository.dart';
 import 'package:dio/dio.dart';
 import 'package:mobx/mobx.dart';
 

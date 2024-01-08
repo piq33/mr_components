@@ -1,12 +1,12 @@
 import 'dart:io';
 
-import 'package:bsl/log/global_log.dart';
-import 'package:bsl/management/services/config_service.dart';
-import 'package:bsl/resource/assets.gen.dart';
-import 'package:bsl/theme/download_theme.dart';
-import 'package:bsl/util/global.dart';
-import 'package:bsl/widget/common/cache_image.dart';
-import 'package:bsl/widget/download/download_screenshot.dart';
+import 'package:components/log/global_log.dart';
+import 'package:components/management/services/config_service.dart';
+import 'package:components/resource/assets.gen.dart';
+import 'package:components/theme/download_theme.dart';
+import 'package:components/util/global.dart';
+import 'package:components/widget/common/cache_image.dart';
+import 'package:components/widget/download/download_screenshot.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';

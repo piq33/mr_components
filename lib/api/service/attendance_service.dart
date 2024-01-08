@@ -1,8 +1,8 @@
-import 'package:bsl/api/bsl_api.dart';
-import 'package:bsl/model/attendance/attendance_model.dart';
-import 'package:bsl/model/attendance/dayoff_model.dart';
-import 'package:bsl/model/bsl_response.dart';
-import 'package:bsl/model/zhaojiao_response.dart';
+import 'package:components/api/bsl_api.dart';
+import 'package:components/model/attendance/attendance_model.dart';
+import 'package:components/model/attendance/dayoff_model.dart';
+import 'package:components/model/bsl_response.dart';
+import 'package:components/model/zhaojiao_response.dart';
 import 'package:dio/dio.dart' hide Headers;
 import 'package:retrofit/retrofit.dart';
 

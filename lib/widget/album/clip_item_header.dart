@@ -1,10 +1,10 @@
-import 'package:bsl/model/album_models.dart';
-import 'package:bsl/model/common_model.dart';
-import 'package:bsl/resource/assets.gen.dart';
-import 'package:bsl/theme/main_theme.dart';
-import 'package:bsl/widget/album/clip_tag.dart';
-import 'package:bsl/widget/common/relationship/teacher_tag.dart';
-import 'package:bsl/widget/common/round_avatar.dart';
+import 'package:components/model/album_models.dart';
+import 'package:components/model/common_model.dart';
+import 'package:components/resource/assets.gen.dart';
+import 'package:components/theme/main_theme.dart';
+import 'package:components/widget/album/clip_tag.dart';
+import 'package:components/widget/common/relationship/teacher_tag.dart';
+import 'package:components/widget/common/round_avatar.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:intl/intl.dart';

@@ -1,7 +1,7 @@
-import 'package:bsl/model/common_model.dart';
-import 'package:bsl/model/converter/datetime_converter.dart';
-import 'package:bsl/model/converter/time/album_file_type_converter.dart';
-import 'package:bsl/model/school_models.dart';
+import 'package:components/model/common_model.dart';
+import 'package:components/model/converter/datetime_converter.dart';
+import 'package:components/model/converter/time/album_file_type_converter.dart';
+import 'package:components/model/school_models.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
 
 part 'album_model.freezed.dart';

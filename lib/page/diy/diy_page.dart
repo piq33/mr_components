@@ -1,4 +1,4 @@
-import 'package:bsl/component/diy/diy_body.dart';
+import 'package:components/component/diy/diy_body.dart';
 import 'package:flutter/material.dart';
 
 class DiyPage extends StatelessWidget {

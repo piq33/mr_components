@@ -1,11 +1,11 @@
 import 'dart:math';
 
-import 'package:bsl/log/global_log.dart';
-import 'package:bsl/model/album_models.dart';
-import 'package:bsl/model/bsl_response.dart';
-import 'package:bsl/model/common_model.dart';
-import 'package:bsl/model/school_models.dart';
-import 'package:bsl/repository/album_repository.dart';
+import 'package:components/log/global_log.dart';
+import 'package:components/model/album_models.dart';
+import 'package:components/model/bsl_response.dart';
+import 'package:components/model/common_model.dart';
+import 'package:components/model/school_models.dart';
+import 'package:components/repository/album_repository.dart';
 import 'package:dio/dio.dart';
 import 'package:mobx/mobx.dart';
 

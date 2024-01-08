@@ -1,8 +1,8 @@
-import 'package:bsl/model/converter/attendance/calendar_type_converter.dart';
-import 'package:bsl/model/converter/school/event_date_converter.dart';
-import 'package:bsl/model/converter/school/holiday_type_converter.dart';
-import 'package:bsl/model/converter/string2bool_converter.dart';
-import 'package:bsl/model/converter/string2int_converter.dart';
+import 'package:components/model/converter/attendance/calendar_type_converter.dart';
+import 'package:components/model/converter/school/event_date_converter.dart';
+import 'package:components/model/converter/school/holiday_type_converter.dart';
+import 'package:components/model/converter/string2bool_converter.dart';
+import 'package:components/model/converter/string2int_converter.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
 
 part 'school_model.freezed.dart';

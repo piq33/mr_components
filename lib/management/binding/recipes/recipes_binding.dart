@@ -1,4 +1,4 @@
-import 'package:bsl/management/controller/recipes/recipes_controller.dart';
+import 'package:components/management/controller/recipes/recipes_controller.dart';
 import 'package:get/get.dart';
 
 class RecipesBinding extends Bindings {

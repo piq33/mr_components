@@ -1,8 +1,8 @@
-import 'package:bsl/log/global_log.dart';
-import 'package:bsl/model/school_models.dart';
-import 'package:bsl/theme/main_theme.dart';
-import 'package:bsl/util/screen_utils.dart';
-import 'package:bsl/widget/common/radio_button.dart';
+import 'package:components/log/global_log.dart';
+import 'package:components/model/school_models.dart';
+import 'package:components/theme/main_theme.dart';
+import 'package:components/util/screen_utils.dart';
+import 'package:components/widget/common/radio_button.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 

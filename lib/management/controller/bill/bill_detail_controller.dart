@@ -1,11 +1,11 @@
 import 'dart:async';
 
-import 'package:bsl/config.dart';
-import 'package:bsl/log/global_log.dart';
-import 'package:bsl/management/services/repository_service.dart';
-import 'package:bsl/mixin/bill_mixin.dart';
-import 'package:bsl/model/bill_models.dart';
-import 'package:bsl/util/global.dart';
+import 'package:components/config.dart';
+import 'package:components/log/global_log.dart';
+import 'package:components/management/services/repository_service.dart';
+import 'package:components/mixin/bill_mixin.dart';
+import 'package:components/model/bill_models.dart';
+import 'package:components/util/global.dart';
 import 'package:dio/dio.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter_smart_dialog/flutter_smart_dialog.dart';

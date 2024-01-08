@@ -1,8 +1,8 @@
-import 'package:bsl/component/time/time_body.dart';
-import 'package:bsl/management/mobx/time/time_store.dart';
-import 'package:bsl/model/time_models.dart';
-import 'package:bsl/widget/time/floating_button_custom_location.dart';
-import 'package:bsl/widget/time/record_button.dart';
+import 'package:components/component/time/time_body.dart';
+import 'package:components/management/mobx/time/time_store.dart';
+import 'package:components/model/time_models.dart';
+import 'package:components/widget/time/floating_button_custom_location.dart';
+import 'package:components/widget/time/record_button.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';

@@ -1,9 +1,9 @@
-import 'package:bsl/model/common_model.dart';
-import 'package:bsl/model/converter/datetime_converter.dart';
-import 'package:bsl/model/converter/gender_converter.dart';
-import 'package:bsl/model/converter/relationship_converter.dart';
-import 'package:bsl/model/converter/school/student_status_converter.dart';
-import 'package:bsl/model/converter/string2int_converter.dart';
+import 'package:components/model/common_model.dart';
+import 'package:components/model/converter/datetime_converter.dart';
+import 'package:components/model/converter/gender_converter.dart';
+import 'package:components/model/converter/relationship_converter.dart';
+import 'package:components/model/converter/school/student_status_converter.dart';
+import 'package:components/model/converter/string2int_converter.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
 
 part 'student_model.freezed.dart';

@@ -1,16 +1,16 @@
 import 'dart:async';
 
-import 'package:bsl/log/global_log.dart';
-import 'package:bsl/management/services/auth_service.dart';
-import 'package:bsl/management/services/config_service.dart';
-import 'package:bsl/management/services/storage_service.dart';
-import 'package:bsl/model/auth_model.dart';
-import 'package:bsl/notification/notification.dart';
-import 'package:bsl/push/push.dart';
-import 'package:bsl/resource/assets.gen.dart';
-import 'package:bsl/umeng/umeng.dart';
-import 'package:bsl/util/global.dart';
-import 'package:bsl/widget/splash/contract_dialog.dart';
+import 'package:components/log/global_log.dart';
+import 'package:components/management/services/auth_service.dart';
+import 'package:components/management/services/config_service.dart';
+import 'package:components/management/services/storage_service.dart';
+import 'package:components/model/auth_model.dart';
+import 'package:components/notification/notification.dart';
+import 'package:components/push/push.dart';
+import 'package:components/resource/assets.gen.dart';
+import 'package:components/umeng/umeng.dart';
+import 'package:components/util/global.dart';
+import 'package:components/widget/splash/contract_dialog.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_native_splash/flutter_native_splash.dart';
 import 'package:get/get.dart';

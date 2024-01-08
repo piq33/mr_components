@@ -1,7 +1,7 @@
-import 'package:bsl/component/time/record_body.dart';
-import 'package:bsl/model/time_models.dart';
-import 'package:bsl/widget/common/default_appbar.dart';
-import 'package:bsl/widget/time/floating_button_custom_location.dart';
+import 'package:components/component/time/record_body.dart';
+import 'package:components/model/time_models.dart';
+import 'package:components/widget/common/default_appbar.dart';
+import 'package:components/widget/time/floating_button_custom_location.dart';
 import 'package:flutter/material.dart';
 
 class RecordPage extends StatelessWidget {

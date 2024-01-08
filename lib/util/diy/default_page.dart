@@ -1,8 +1,8 @@
 import 'dart:convert';
 import 'dart:ui';
 
-import 'package:bsl/model/diy/diy_json_model.dart';
-import 'package:bsl/util/ui_utils.dart';
+import 'package:components/model/diy/diy_json_model.dart';
+import 'package:components/util/ui_utils.dart';
 
 PageJsonModel providePage1({String? background, Color? borderColor}) {
   final jsonStr = '''

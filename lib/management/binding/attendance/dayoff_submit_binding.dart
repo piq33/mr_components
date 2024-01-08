@@ -1,4 +1,4 @@
-import 'package:bsl/management/controller/attendance/leave_types_controller.dart';
+import 'package:components/management/controller/attendance/leave_types_controller.dart';
 import 'package:get/get.dart';
 
 class DayOffSubmitBinding extends Bindings {

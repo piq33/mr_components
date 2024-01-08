@@ -1,8 +1,8 @@
 import 'dart:convert';
 
-import 'package:bsl/model/common_model.dart';
-import 'package:bsl/model/converter/push_converter.dart';
-import 'package:bsl/model/converter/scene_converter.dart';
+import 'package:components/model/common_model.dart';
+import 'package:components/model/converter/push_converter.dart';
+import 'package:components/model/converter/scene_converter.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
 
 part 'push_model.freezed.dart';

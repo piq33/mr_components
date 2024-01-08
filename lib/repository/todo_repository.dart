@@ -1,6 +1,6 @@
-import 'package:bsl/api/service/todo_service.dart';
-import 'package:bsl/model/bsl_response.dart';
-import 'package:bsl/model/todo_models.dart';
+import 'package:components/api/service/todo_service.dart';
+import 'package:components/model/bsl_response.dart';
+import 'package:components/model/todo_models.dart';
 import 'package:dio/dio.dart';
 
 class TodoRepository {

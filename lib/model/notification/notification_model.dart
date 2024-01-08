@@ -1,11 +1,11 @@
-import 'package:bsl/model/common_model.dart';
-import 'package:bsl/model/converter/datetime_converter.dart';
-import 'package:bsl/model/converter/int2bool_converter.dart';
-import 'package:bsl/model/converter/notification/message_type_converter.dart';
-import 'package:bsl/model/converter/push_converter.dart';
-import 'package:bsl/model/converter/scene_converter.dart';
-import 'package:bsl/model/converter/string2bool_converter.dart';
-import 'package:bsl/model/converter/string2int_converter.dart';
+import 'package:components/model/common_model.dart';
+import 'package:components/model/converter/datetime_converter.dart';
+import 'package:components/model/converter/int2bool_converter.dart';
+import 'package:components/model/converter/notification/message_type_converter.dart';
+import 'package:components/model/converter/push_converter.dart';
+import 'package:components/model/converter/scene_converter.dart';
+import 'package:components/model/converter/string2bool_converter.dart';
+import 'package:components/model/converter/string2int_converter.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
 
 part 'notification_model.freezed.dart';

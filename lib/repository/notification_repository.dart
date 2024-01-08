@@ -1,6 +1,6 @@
-import 'package:bsl/api/service/notification_service.dart';
-import 'package:bsl/model/bsl_response.dart';
-import 'package:bsl/model/notification_models.dart';
+import 'package:components/api/service/notification_service.dart';
+import 'package:components/model/bsl_response.dart';
+import 'package:components/model/notification_models.dart';
 import 'package:dio/dio.dart';
 import 'package:intl/intl.dart';
 

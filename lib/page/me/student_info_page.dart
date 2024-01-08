@@ -1,6 +1,6 @@
-import 'package:bsl/component/me/student_info_body.dart';
-import 'package:bsl/resource/assets.gen.dart';
-import 'package:bsl/widget/common/default_appbar.dart';
+import 'package:components/component/me/student_info_body.dart';
+import 'package:components/resource/assets.gen.dart';
+import 'package:components/widget/common/default_appbar.dart';
 import 'package:flutter/material.dart';
 
 class StudentInfoPage extends StatelessWidget {

@@ -1,6 +1,6 @@
-import 'package:bsl/api/bsl_api.dart';
-import 'package:bsl/model/activity/activity_model.dart';
-import 'package:bsl/model/bsl_response.dart';
+import 'package:components/api/bsl_api.dart';
+import 'package:components/model/activity/activity_model.dart';
+import 'package:components/model/bsl_response.dart';
 import 'package:dio/dio.dart';
 import 'package:retrofit/retrofit.dart';
 

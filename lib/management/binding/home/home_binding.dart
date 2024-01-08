@@ -1,6 +1,6 @@
-import 'package:bsl/management/controller/home/home_controller.dart';
-import 'package:bsl/management/controller/me/me_controller.dart';
-import 'package:bsl/management/controller/school/student_controller.dart';
+import 'package:components/management/controller/home/home_controller.dart';
+import 'package:components/management/controller/me/me_controller.dart';
+import 'package:components/management/controller/school/student_controller.dart';
 import 'package:get/get.dart';
 
 class HomeBinding extends Bindings {

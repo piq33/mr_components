@@ -1,8 +1,8 @@
-import 'package:bsl/component/login/login_form.dart';
-import 'package:bsl/resource/assets.gen.dart';
-import 'package:bsl/theme/login_theme.dart';
-import 'package:bsl/theme/main_theme.dart';
-import 'package:bsl/theme/theme.dart';
+import 'package:components/component/login/login_form.dart';
+import 'package:components/resource/assets.gen.dart';
+import 'package:components/theme/login_theme.dart';
+import 'package:components/theme/main_theme.dart';
+import 'package:components/theme/theme.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_native_splash/flutter_native_splash.dart';

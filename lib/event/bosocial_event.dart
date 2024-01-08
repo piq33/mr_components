@@ -1,4 +1,4 @@
-import 'package:bsl/model/bosocial_models.dart';
+import 'package:components/model/bosocial_models.dart';
 
 class KnowledgeSyncEvent {
   final KnowledgeDetailModel knowledge;

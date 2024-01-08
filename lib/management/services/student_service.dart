@@ -1,5 +1,5 @@
-import 'package:bsl/management/controller/school/student_controller.dart';
-import 'package:bsl/model/school_models.dart';
+import 'package:components/management/controller/school/student_controller.dart';
+import 'package:components/model/school_models.dart';
 import 'package:get/get.dart';
 
 /// 全局学生信息管理服务

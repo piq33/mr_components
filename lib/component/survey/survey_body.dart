@@ -1,12 +1,12 @@
 import 'dart:math';
 
-import 'package:bsl/log/global_log.dart';
-import 'package:bsl/management/services/repository_service.dart';
-import 'package:bsl/model/bsl_response.dart';
-import 'package:bsl/model/survey/survey_model.dart';
-import 'package:bsl/widget/common/empty.dart';
-import 'package:bsl/widget/common/list_loading.dart';
-import 'package:bsl/widget/survey/survey_item.dart';
+import 'package:components/log/global_log.dart';
+import 'package:components/management/services/repository_service.dart';
+import 'package:components/model/bsl_response.dart';
+import 'package:components/model/survey/survey_model.dart';
+import 'package:components/widget/common/empty.dart';
+import 'package:components/widget/common/list_loading.dart';
+import 'package:components/widget/survey/survey_item.dart';
 import 'package:dio/dio.dart';
 import 'package:easy_refresh/easy_refresh.dart';
 import 'package:flutter/material.dart';

@@ -1,11 +1,11 @@
 import 'dart:collection';
 
-import 'package:bsl/log/global_log.dart';
-import 'package:bsl/management/services/auth_service.dart';
-import 'package:bsl/model/navigation_model.dart';
-import 'package:bsl/repository/common_repository.dart';
-import 'package:bsl/resource/assets.gen.dart';
-import 'package:bsl/util/exception_utils.dart';
+import 'package:components/log/global_log.dart';
+import 'package:components/management/services/auth_service.dart';
+import 'package:components/model/navigation_model.dart';
+import 'package:components/repository/common_repository.dart';
+import 'package:components/resource/assets.gen.dart';
+import 'package:components/util/exception_utils.dart';
 import 'package:dio/dio.dart';
 import 'package:get/get.dart';
 import 'package:mobx/mobx.dart';

@@ -1,4 +1,4 @@
-import 'package:bsl/model/survey/survey_model.dart';
+import 'package:components/model/survey/survey_model.dart';
 import 'package:json_annotation/json_annotation.dart';
 
 class SurveyStatusJsonConverter implements JsonConverter<SurveyStatus, int> {

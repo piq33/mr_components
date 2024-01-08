@@ -1,7 +1,7 @@
-import 'package:bsl/resource/assets.gen.dart';
-import 'package:bsl/theme/diy_theme.dart';
-import 'package:bsl/theme/main_theme.dart';
-import 'package:bsl/widget/common/expandable_text/expandable_text.dart';
+import 'package:components/resource/assets.gen.dart';
+import 'package:components/theme/diy_theme.dart';
+import 'package:components/theme/main_theme.dart';
+import 'package:components/widget/common/expandable_text/expandable_text.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 

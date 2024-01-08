@@ -1,7 +1,7 @@
 import 'dart:math';
 
-import 'package:bsl/log/global_log.dart';
-import 'package:bsl/model/bsl_response.dart';
+import 'package:components/log/global_log.dart';
+import 'package:components/model/bsl_response.dart';
 import 'package:dio/dio.dart';
 import 'package:get/get.dart';
 

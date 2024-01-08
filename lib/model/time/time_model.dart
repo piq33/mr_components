@@ -1,9 +1,9 @@
-import 'package:bsl/model/common_model.dart';
-import 'package:bsl/model/converter/datetime_converter.dart';
-import 'package:bsl/model/converter/int2bool_converter.dart';
-import 'package:bsl/model/converter/time/album_file_type_converter.dart';
-import 'package:bsl/model/converter/time/day_string_converter.dart';
-import 'package:bsl/model/diy_models.dart';
+import 'package:components/model/common_model.dart';
+import 'package:components/model/converter/datetime_converter.dart';
+import 'package:components/model/converter/int2bool_converter.dart';
+import 'package:components/model/converter/time/album_file_type_converter.dart';
+import 'package:components/model/converter/time/day_string_converter.dart';
+import 'package:components/model/diy_models.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
 
 part 'time_model.freezed.dart';

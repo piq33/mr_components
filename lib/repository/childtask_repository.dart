@@ -1,8 +1,8 @@
-import 'package:bsl/api/service/childtask_service.dart';
-import 'package:bsl/model/bsl_response.dart';
-import 'package:bsl/model/childtask/childtask_model.dart';
-import 'package:bsl/model/childtask/comment_model.dart';
-import 'package:bsl/model/common_model.dart';
+import 'package:components/api/service/childtask_service.dart';
+import 'package:components/model/bsl_response.dart';
+import 'package:components/model/childtask/childtask_model.dart';
+import 'package:components/model/childtask/comment_model.dart';
+import 'package:components/model/common_model.dart';
 import 'package:dio/dio.dart';
 import 'package:intl/intl.dart';
 

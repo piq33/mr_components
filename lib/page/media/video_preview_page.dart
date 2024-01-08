@@ -2,10 +2,10 @@ import 'dart:async';
 import 'dart:io';
 
 import 'package:audio_video_progress_bar/audio_video_progress_bar.dart';
-import 'package:bsl/log/global_log.dart';
-import 'package:bsl/mixin/media_mixin.dart';
-import 'package:bsl/model/media_model.dart';
-import 'package:bsl/theme/media_theme.dart';
+import 'package:components/log/global_log.dart';
+import 'package:components/mixin/media_mixin.dart';
+import 'package:components/model/media_model.dart';
+import 'package:components/theme/media_theme.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';

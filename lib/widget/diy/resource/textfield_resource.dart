@@ -1,5 +1,5 @@
-import 'package:bsl/model/diy/diy_json_model.dart';
-import 'package:bsl/theme/main_theme.dart';
+import 'package:components/model/diy/diy_json_model.dart';
+import 'package:components/theme/main_theme.dart';
 import 'package:flutter/material.dart';
 
 class TextFieldResource extends StatefulWidget {

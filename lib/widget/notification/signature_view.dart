@@ -1,6 +1,6 @@
-import 'package:bsl/resource/assets.gen.dart';
-import 'package:bsl/theme/main_theme.dart';
-import 'package:bsl/theme/notification_theme.dart';
+import 'package:components/resource/assets.gen.dart';
+import 'package:components/theme/main_theme.dart';
+import 'package:components/theme/notification_theme.dart';
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';

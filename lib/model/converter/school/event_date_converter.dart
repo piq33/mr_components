@@ -1,6 +1,6 @@
+import 'package:components/log/global_log.dart';
 import 'package:intl/intl.dart';
 import 'package:json_annotation/json_annotation.dart';
-import 'package:bsl/log/global_log.dart';
 
 class EventDateJsonConverter implements JsonConverter<DateTime?, String> {
   const EventDateJsonConverter();

@@ -1,5 +1,5 @@
-import 'package:bsl/component/new_baby/new_baby_form.dart';
-import 'package:bsl/widget/common/default_appbar.dart';
+import 'package:components/component/new_baby/new_baby_form.dart';
+import 'package:components/widget/common/default_appbar.dart';
 import 'package:flutter/material.dart';
 
 class NewBabyPage extends StatelessWidget {

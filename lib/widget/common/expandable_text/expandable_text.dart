@@ -1,6 +1,6 @@
 import 'dart:math';
 
-import 'package:bsl/widget/common/expandable_text/text_parser.dart';
+import 'package:components/widget/common/expandable_text/text_parser.dart';
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 
@@ -38,7 +38,7 @@ class ExpandableText extends StatefulWidget {
     this.animationDuration,
     this.animationCurve,
     this.semanticsLabel,
-  })  : assert(maxLines > 0);
+  }) : assert(maxLines > 0);
 
   final String text;
   final String expandText;

@@ -1,7 +1,7 @@
-import 'package:bsl/resource/assets.gen.dart';
-import 'package:bsl/theme/media_theme.dart';
-import 'package:bsl/util/date_utils.dart';
-import 'package:bsl/widget/common/cache_image.dart';
+import 'package:components/resource/assets.gen.dart';
+import 'package:components/theme/media_theme.dart';
+import 'package:components/util/date_utils.dart';
+import 'package:components/widget/common/cache_image.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:wechat_assets_picker/wechat_assets_picker.dart';

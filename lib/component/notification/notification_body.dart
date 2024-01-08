@@ -1,10 +1,10 @@
 import 'package:badges/badges.dart' as badges;
 import 'package:badges/badges.dart';
-import 'package:bsl/component/notification/notification_list.dart';
-import 'package:bsl/management/services/notification_service.dart';
-import 'package:bsl/model/notification_models.dart';
-import 'package:bsl/resource/assets.gen.dart';
-import 'package:bsl/theme/main_theme.dart';
+import 'package:components/component/notification/notification_list.dart';
+import 'package:components/management/services/notification_service.dart';
+import 'package:components/model/notification_models.dart';
+import 'package:components/resource/assets.gen.dart';
+import 'package:components/theme/main_theme.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';

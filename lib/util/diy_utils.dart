@@ -1,6 +1,6 @@
-import 'package:bsl/model/diy/diy_json_model.dart';
-import 'package:bsl/util/diy/default_homepage.dart';
-import 'package:bsl/util/diy/default_page.dart';
+import 'package:components/model/diy/diy_json_model.dart';
+import 'package:components/util/diy/default_homepage.dart';
+import 'package:components/util/diy/default_page.dart';
 import 'package:flutter/material.dart';
 
 List<PageJsonModel> defaultHomePages() {

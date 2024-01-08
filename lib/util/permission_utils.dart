@@ -1,6 +1,6 @@
 import 'dart:io';
 
-import 'package:bsl/log/global_log.dart';
+import 'package:components/log/global_log.dart';
 import 'package:device_info_plus/device_info_plus.dart';
 import 'package:fluttertoast/fluttertoast.dart';
 import 'package:permission_handler/permission_handler.dart';

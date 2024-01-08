@@ -1,5 +1,5 @@
-import 'package:bsl/theme/main_theme.dart';
-import 'package:bsl/widget/time/warpper_box.dart';
+import 'package:components/theme/main_theme.dart';
+import 'package:components/widget/time/warpper_box.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 

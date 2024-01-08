@@ -1,6 +1,6 @@
-import 'package:bsl/model/diy_models.dart';
-import 'package:bsl/theme/diy_theme.dart';
-import 'package:bsl/theme/main_theme.dart';
+import 'package:components/model/diy_models.dart';
+import 'package:components/theme/diy_theme.dart';
+import 'package:components/theme/main_theme.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';

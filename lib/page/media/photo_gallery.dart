@@ -1,7 +1,7 @@
-import 'package:bsl/mixin/media_mixin.dart';
-import 'package:bsl/model/media_model.dart';
-import 'package:bsl/theme/main_theme.dart';
-import 'package:bsl/theme/media_theme.dart';
+import 'package:components/mixin/media_mixin.dart';
+import 'package:components/model/media_model.dart';
+import 'package:components/theme/main_theme.dart';
+import 'package:components/theme/media_theme.dart';
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';

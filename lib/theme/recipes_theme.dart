@@ -1,4 +1,4 @@
-import 'package:bsl/resource/colors.gen.dart';
+import 'package:components/resource/colors.gen.dart';
 import 'package:flutter/material.dart';
 
 class RecipesTheme extends ThemeExtension<RecipesTheme> {

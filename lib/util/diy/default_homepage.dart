@@ -1,6 +1,6 @@
 import 'dart:convert';
 
-import 'package:bsl/model/diy_models.dart';
+import 'package:components/model/diy_models.dart';
 
 PageJsonModel provideCustomHomepage() {
   const jsonStr = '''

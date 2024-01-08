@@ -1,9 +1,9 @@
-import 'package:bsl/model/converter/attendance/attendance_date_converter.dart';
-import 'package:bsl/model/converter/attendance/attendance_status_converter.dart';
-import 'package:bsl/model/converter/attendance/attendance_type_converter.dart';
-import 'package:bsl/model/converter/attendance/signature_status_converter.dart';
-import 'package:bsl/model/converter/datetime_converter.dart';
-import 'package:bsl/model/converter/string2bool_converter.dart';
+import 'package:components/model/converter/attendance/attendance_date_converter.dart';
+import 'package:components/model/converter/attendance/attendance_status_converter.dart';
+import 'package:components/model/converter/attendance/attendance_type_converter.dart';
+import 'package:components/model/converter/attendance/signature_status_converter.dart';
+import 'package:components/model/converter/datetime_converter.dart';
+import 'package:components/model/converter/string2bool_converter.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
 
 part 'attendance_model.freezed.dart';

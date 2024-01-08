@@ -1,6 +1,6 @@
-import 'package:bsl/management/services/repository_service.dart';
-import 'package:bsl/management/services/storage_service.dart';
-import 'package:bsl/model/auth_model.dart';
+import 'package:components/management/services/repository_service.dart';
+import 'package:components/management/services/storage_service.dart';
+import 'package:components/model/auth_model.dart';
 import 'package:dio/dio.dart';
 import 'package:get/get.dart';
 import 'package:isar/isar.dart';

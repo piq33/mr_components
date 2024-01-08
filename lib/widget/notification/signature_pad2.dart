@@ -1,13 +1,13 @@
 import 'dart:ui';
 
-import 'package:bsl/log/global_log.dart';
-import 'package:bsl/model/notification/notification_model.dart';
-import 'package:bsl/resource/assets.gen.dart';
-import 'package:bsl/resource/colors.gen.dart';
-import 'package:bsl/theme/main_theme.dart';
-import 'package:bsl/theme/notification_theme.dart';
-import 'package:bsl/widget/common/button.dart';
-import 'package:bsl/widget/common/custom_dialog.dart';
+import 'package:components/log/global_log.dart';
+import 'package:components/model/notification/notification_model.dart';
+import 'package:components/resource/assets.gen.dart';
+import 'package:components/resource/colors.gen.dart';
+import 'package:components/theme/main_theme.dart';
+import 'package:components/theme/notification_theme.dart';
+import 'package:components/widget/common/button.dart';
+import 'package:components/widget/common/custom_dialog.dart';
 import 'package:flutter/material.dart' hide Image;
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:signature/signature.dart';

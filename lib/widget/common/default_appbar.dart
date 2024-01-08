@@ -1,7 +1,7 @@
-import 'package:bsl/resource/colors.gen.dart';
-import 'package:bsl/theme/main_theme.dart';
-import 'package:bsl/theme/theme.dart';
-import 'package:bsl/util/global.dart';
+import 'package:components/resource/colors.gen.dart';
+import 'package:components/theme/main_theme.dart';
+import 'package:components/theme/theme.dart';
+import 'package:components/util/global.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';

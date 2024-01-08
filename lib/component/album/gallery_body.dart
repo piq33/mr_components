@@ -4,7 +4,6 @@ import 'package:components/management/services/auth_service.dart';
 import 'package:components/management/services/repository_service.dart';
 import 'package:components/management/services/storage_service.dart';
 import 'package:components/mixin/media_mixin.dart';
-import 'package:components/model/bsl_response.dart';
 import 'package:components/model/common_model.dart';
 import 'package:components/model/diy_models.dart';
 import 'package:components/model/time_models.dart';
@@ -19,16 +18,16 @@ import 'package:flutter_smart_dialog/flutter_smart_dialog.dart';
 import 'package:fluttertoast/fluttertoast.dart';
 import 'package:get/get.dart';
 
-class DiyPublishBody extends StatefulWidget {
-  const DiyPublishBody({required this.product, super.key});
+class GalleryBody extends StatefulWidget {
+  const GalleryBody({required this.studentAlbumId, super.key});
 
-  final DiyProductModel product;
+  final String studentAlbumId;
 
   @override
-  State<DiyPublishBody> createState() => _DiyPublishBodyState();
+  State<GalleryBody> createState() => _GalleryBodyState();
 }
 
-class _DiyPublishBodyState extends State<DiyPublishBody> with AddMediaMixin {
+class _GalleryBodyState extends State<GalleryBody> with AddMediaMixin {
   final _userService = Get.find<AuthService>();
   final _storageService = Get.find<StorageService>();
   final _repository = Get.find<RepositoryService>().diyRepository;
@@ -43,13 +42,39 @@ class _DiyPublishBodyState extends State<DiyPublishBody> with AddMediaMixin {
   @override
   void initState() {
     super.initState();
-    _titleController.text = widget.product.title ?? '';
+    WidgetsBinding.instance.addPostFrameCallback((timeStamp) => _refresh());
   }
 
   @override
-  void didUpdateWidget(covariant DiyPublishBody oldWidget) {
+  void didUpdateWidget(covariant GalleryBody oldWidget) {
     super.didUpdateWidget(oldWidget);
-    _titleController.text = widget.product.title ?? '';
+    if (oldWidget.studentAlbumId == widget.studentAlbumId) return;
+    WidgetsBinding.instance.addPostFrameCallback((timeStamp) => _refresh());
+  }
+
+  void _refresh() async {
+    try {
+      SmartDialog.showLoading(msg: '正在加载...');
+      _cancelToken = CancelToken();
+      final r = await _repository.fetchTemplateDetail(
+        widget.studentAlbumId,
+        _cancelToken,
+      );
+      if (r.success) {
+        TemplateDetailModel detail = r.data;
+        _titleController.text = detail.title;
+        _contentController.text = detail.content;
+        _catalogType = detail.catalogType;
+        final cover = detail.cover ?? '';
+        _cover =
+            cover.isEmpty ? null : UploadFile.fromRemote(FileType.image, cover);
+        setState(() {});
+      }
+    } catch (e, stackTrace) {
+      logError('获取相册详情异常: ${e.toString()}', e, stackTrace);
+    } finally {
+      SmartDialog.dismiss();
+    }
   }
 
   void _submit() async {
@@ -91,39 +116,14 @@ class _DiyPublishBodyState extends State<DiyPublishBody> with AddMediaMixin {
         cover.uploaded = true;
       }
 
-      // 上传图片
-      final files = await _uploadFiles();
-      if (files.any((element) => !element.uploaded)) {
-        SmartDialog.dismiss();
-        Fluttertoast.showToast(msg: '图片上传失败, 请重试');
-        return;
-      }
-      final template = widget.product.template;
-      final templateId = template?.templateId;
-      BslResponse<EmptyObjectData> r;
-      if (template == null || templateId == null || templateId.isEmpty) {
-        r = await _repository.addNoTemplateDiy(
-          title: title,
-          music: widget.product.music,
-          content: content,
-          cover: _cover,
-          catalogType: _catalogType,
-          uploadFiles: files,
-          cancelToken: _cancelToken,
-        );
-      } else {
-        r = await _repository.addTemplateDiy(
-          templateId: templateId,
-          title: title,
-          music: widget.product.music,
-          content: content,
-          cover: _cover,
-          catalogType: catalogType,
-          pages: template.pages,
-          cancelToken: _cancelToken,
-        );
-      }
-
+      final r = await _repository.updateGallery(
+        studentAlbumId: widget.studentAlbumId,
+        title: title,
+        content: content,
+        cover: cover.remote,
+        catalogType: catalogType,
+        cancelToken: _cancelToken,
+      );
       if (r.success) {
         Fluttertoast.showToast(msg: '提交成功');
         // 通知时光刷新
@@ -133,55 +133,13 @@ class _DiyPublishBodyState extends State<DiyPublishBody> with AddMediaMixin {
             operation: OperationType.add,
           ),
         );
-        // 通知making页面提交成功
-        Get.back(result: true);
+        Get.back();
       }
     } catch (e, stackTrace) {
       logError('提交相册异常: ${e.toString()}', e, stackTrace);
     } finally {
       SmartDialog.dismiss();
     }
-  }
-
-  Future<List<UploadFile>> _uploadFiles() async {
-    final userId = _userService.user.value.userId;
-    final files = List<UploadFile>.empty(growable: true);
-    for (PageJsonModel page in widget.product.template?.pages ?? []) {
-      for (PageResource resource in page.resources) {
-        final data = resource.data;
-        if (data is! ResourceImageValue) continue;
-
-        final value = data.value;
-        if (value == null) continue;
-
-        switch (data.type) {
-          case ResourceValueType.url:
-            files.add(UploadFile.fromRemote(FileType.image, value));
-            break;
-          case ResourceValueType.file:
-            final file = UploadFile(type: FileType.image, local: value);
-            _uploadCancelToken = UploadCancelToken();
-            final url = await _storageService.upload(
-              uniqueId: userId.toString(),
-              filepath: file.local,
-              cancelToken: _uploadCancelToken,
-            );
-            file.remote = url;
-            file.uploaded = true;
-            files.add(file);
-
-            // 更新资源值
-            resource.data = ResourceImageValue(
-              type: ResourceValueType.url,
-              value: url,
-            );
-            break;
-          default:
-            break;
-        }
-      }
-    }
-    return files;
   }
 
   @override
@@ -210,7 +168,7 @@ class _DiyPublishBodyState extends State<DiyPublishBody> with AddMediaMixin {
           onTap: _submit,
           child: Center(
             child: Text(
-              '立即发布',
+              '修改',
               style: TextStyle(
                 color: mainTheme?.mainButtonTextColor,
                 fontSize: 16.sp,

@@ -1,6 +1,6 @@
-import 'package:bsl/model/navigation_model.dart';
-import 'package:bsl/theme/main_theme.dart';
-import 'package:bsl/widget/common/cache_image.dart';
+import 'package:components/model/navigation_model.dart';
+import 'package:components/theme/main_theme.dart';
+import 'package:components/widget/common/cache_image.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 

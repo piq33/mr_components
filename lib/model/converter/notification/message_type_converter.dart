@@ -1,4 +1,4 @@
-import 'package:bsl/model/notification_models.dart';
+import 'package:components/model/notification_models.dart';
 import 'package:json_annotation/json_annotation.dart';
 
 class MessageTypeJsonConverter implements JsonConverter<MessageType, String> {

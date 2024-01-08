@@ -1,7 +1,7 @@
 import 'dart:io';
 
-import 'package:bsl/config.dart';
-import 'package:bsl/log/global_log.dart';
+import 'package:components/config.dart';
+import 'package:components/log/global_log.dart';
 import 'package:getuiflut/getuiflut.dart';
 
 final push = Getuiflut();

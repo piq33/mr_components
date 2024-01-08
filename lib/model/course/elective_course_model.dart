@@ -1,5 +1,5 @@
-import 'package:bsl/model/converter/course/cancel_type_converter.dart';
-import 'package:bsl/model/converter/datetime_converter.dart';
+import 'package:components/model/converter/course/cancel_type_converter.dart';
+import 'package:components/model/converter/datetime_converter.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
 
 part 'elective_course_model.freezed.dart';

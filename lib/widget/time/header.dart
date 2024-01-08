@@ -1,8 +1,8 @@
-import 'package:bsl/model/common_model.dart';
-import 'package:bsl/resource/assets.gen.dart';
-import 'package:bsl/theme/main_theme.dart';
-import 'package:bsl/theme/time_theme.dart';
-import 'package:bsl/widget/common/gender_avatar.dart';
+import 'package:components/model/common_model.dart';
+import 'package:components/resource/assets.gen.dart';
+import 'package:components/theme/main_theme.dart';
+import 'package:components/theme/time_theme.dart';
+import 'package:components/widget/common/gender_avatar.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 

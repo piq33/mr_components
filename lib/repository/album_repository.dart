@@ -1,9 +1,9 @@
-import 'package:bsl/api/service/album_service.dart';
-import 'package:bsl/model/album/album_model.dart';
-import 'package:bsl/model/album/comment_model.dart';
-import 'package:bsl/model/bsl_response.dart';
-import 'package:bsl/model/common_model.dart';
-import 'package:bsl/model/school_models.dart';
+import 'package:components/api/service/album_service.dart';
+import 'package:components/model/album/album_model.dart';
+import 'package:components/model/album/comment_model.dart';
+import 'package:components/model/bsl_response.dart';
+import 'package:components/model/common_model.dart';
+import 'package:components/model/school_models.dart';
 import 'package:dio/dio.dart';
 import 'package:intl/intl.dart';
 

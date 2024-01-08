@@ -1,9 +1,9 @@
 import 'dart:async';
 
-import 'package:bsl/model/diy_models.dart';
-import 'package:bsl/widget/diy/custom_homepage_placeholder.dart';
-import 'package:bsl/widget/diy/page_card.dart';
-import 'package:bsl/widget/diy/paper_control.dart';
+import 'package:components/model/diy_models.dart';
+import 'package:components/widget/diy/custom_homepage_placeholder.dart';
+import 'package:components/widget/diy/page_card.dart';
+import 'package:components/widget/diy/paper_control.dart';
 import 'package:flutter/material.dart';
 import 'package:paper_transition/paper_transition.dart';
 

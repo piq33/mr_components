@@ -1,6 +1,6 @@
 import 'dart:math';
 
-import 'package:bsl/resource/assets.gen.dart';
+import 'package:components/resource/assets.gen.dart';
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 

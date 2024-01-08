@@ -1,6 +1,6 @@
-import 'package:bsl/model/converter/attendance/leave_status_converter.dart';
-import 'package:bsl/model/converter/datetime_converter.dart';
-import 'package:bsl/model/converter/string2int_converter.dart';
+import 'package:components/model/converter/attendance/leave_status_converter.dart';
+import 'package:components/model/converter/datetime_converter.dart';
+import 'package:components/model/converter/string2int_converter.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
 
 part 'dayoff_model.freezed.dart';

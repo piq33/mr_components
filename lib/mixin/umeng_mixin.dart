@@ -1,4 +1,4 @@
-import 'package:bsl/log/global_log.dart';
+import 'package:components/log/global_log.dart';
 import 'package:flutter/widgets.dart';
 import 'package:umeng_common_sdk/umeng_common_sdk.dart';
 

@@ -1,6 +1,6 @@
-import 'package:bsl/component/notification/notification_list.dart';
-import 'package:bsl/model/converter/notification/message_type_converter.dart';
-import 'package:bsl/widget/common/default_appbar.dart';
+import 'package:components/component/notification/notification_list.dart';
+import 'package:components/model/converter/notification/message_type_converter.dart';
+import 'package:components/widget/common/default_appbar.dart';
 import 'package:flutter/material.dart';
 
 class NotificationListPage extends StatelessWidget {

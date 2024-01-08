@@ -1,4 +1,4 @@
-import 'package:bsl/model/attendance/attendance_model.dart';
+import 'package:components/model/attendance/attendance_model.dart';
 import 'package:json_annotation/json_annotation.dart';
 
 class AttendanceTypeJsonConverter

@@ -1,9 +1,9 @@
-import 'package:bsl/log/global_log.dart';
-import 'package:bsl/model/common_model.dart';
-import 'package:bsl/resource/assets.gen.dart';
-import 'package:bsl/theme/main_theme.dart';
-import 'package:bsl/util/string_utils.dart';
-import 'package:bsl/widget/common/bsl_html_widget.dart';
+import 'package:components/log/global_log.dart';
+import 'package:components/model/common_model.dart';
+import 'package:components/resource/assets.gen.dart';
+import 'package:components/theme/main_theme.dart';
+import 'package:components/util/string_utils.dart';
+import 'package:components/widget/common/bsl_html_widget.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 

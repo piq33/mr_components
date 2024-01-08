@@ -1,8 +1,8 @@
-import 'package:bsl/api/service/auth_service.dart';
-import 'package:bsl/model/auth_model.dart';
-import 'package:bsl/model/bsl_response.dart';
-import 'package:bsl/model/common_model.dart';
-import 'package:bsl/model/converter/gender_converter.dart';
+import 'package:components/api/service/auth_service.dart';
+import 'package:components/model/auth_model.dart';
+import 'package:components/model/bsl_response.dart';
+import 'package:components/model/common_model.dart';
+import 'package:components/model/converter/gender_converter.dart';
 import 'package:dio/dio.dart';
 import 'package:intl/intl.dart';
 

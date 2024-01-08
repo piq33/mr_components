@@ -1,4 +1,4 @@
-import 'package:bsl/config.dart';
+import 'package:components/config.dart';
 import 'package:event_bus/event_bus.dart';
 import 'package:fluwx/fluwx.dart';
 

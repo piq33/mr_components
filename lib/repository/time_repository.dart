@@ -1,6 +1,6 @@
-import 'package:bsl/api/service/time_service.dart';
-import 'package:bsl/model/bsl_response.dart';
-import 'package:bsl/model/time_models.dart';
+import 'package:components/api/service/time_service.dart';
+import 'package:components/model/bsl_response.dart';
+import 'package:components/model/time_models.dart';
 import 'package:dio/dio.dart';
 
 class TimeRepository {

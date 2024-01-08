@@ -1,9 +1,9 @@
 import 'dart:math';
 
-import 'package:bsl/log/global_log.dart';
-import 'package:bsl/model/bsl_response.dart';
-import 'package:bsl/model/course_models.dart';
-import 'package:bsl/repository/course_repository.dart';
+import 'package:components/log/global_log.dart';
+import 'package:components/model/bsl_response.dart';
+import 'package:components/model/course_models.dart';
+import 'package:components/repository/course_repository.dart';
 import 'package:dio/dio.dart';
 import 'package:mobx/mobx.dart';
 

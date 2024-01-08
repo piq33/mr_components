@@ -1,7 +1,7 @@
-import 'package:bsl/log/global_log.dart';
-import 'package:bsl/model/common_model.dart';
-import 'package:bsl/model/conservation/daylife_model.dart';
-import 'package:bsl/repository/conservation_repository.dart';
+import 'package:components/log/global_log.dart';
+import 'package:components/model/common_model.dart';
+import 'package:components/model/conservation/daylife_model.dart';
+import 'package:components/repository/conservation_repository.dart';
 import 'package:dio/dio.dart';
 import 'package:mobx/mobx.dart';
 

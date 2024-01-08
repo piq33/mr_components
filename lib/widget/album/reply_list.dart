@@ -1,6 +1,6 @@
-import 'package:bsl/model/album/comment_model.dart';
-import 'package:bsl/theme/main_theme.dart';
-import 'package:bsl/widget/album/comment_item.dart';
+import 'package:components/model/album/comment_model.dart';
+import 'package:components/theme/main_theme.dart';
+import 'package:components/widget/album/comment_item.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:nil/nil.dart';

@@ -1,5 +1,5 @@
-import 'package:bsl/log/global_log.dart';
-import 'package:bsl/model/converter/datetime_converter.dart';
+import 'package:components/log/global_log.dart';
+import 'package:components/model/converter/datetime_converter.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
 
 part 'week_plan_model.freezed.dart';
@@ -181,7 +181,7 @@ class WeekPlanModel with _$WeekPlanModel {
     /// 周目标
     @JsonKey(name: 'detailList')
     @Default([])
-        List<WeekPlanTargetModel> targetList,
+    List<WeekPlanTargetModel> targetList,
 
     /// 周计划
     @JsonKey(name: 'itemList') @Default([]) List<WeekPlanInfoModel> infoList,

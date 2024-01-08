@@ -1,6 +1,6 @@
-import 'package:bsl/api/bsl_api.dart';
-import 'package:bsl/model/bsl_response.dart';
-import 'package:bsl/model/week_plan_models.dart';
+import 'package:components/api/bsl_api.dart';
+import 'package:components/model/bsl_response.dart';
+import 'package:components/model/week_plan_models.dart';
 import 'package:dio/dio.dart';
 import 'package:retrofit/retrofit.dart';
 
@@ -20,7 +20,7 @@ abstract class WeekPlanRemoteApi {
   @GET(forwardGetApi)
   Future<BslResponse<List<WeekPlanModel>>> fetchWeekPlanDateRange({
     @Query('uri')
-        String uri = '/v1/kindergarten/bussiness/weekplan/listWithDate',
+    String uri = '/v1/kindergarten/bussiness/weekplan/listWithDate',
     @Query('env') String env = 'kindergarten',
 
     /// 学校编码

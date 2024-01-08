@@ -1,4 +1,4 @@
-import 'package:bsl/model/converter/string2int_converter.dart';
+import 'package:components/model/converter/string2int_converter.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
 
 part 'zhaojiao_response.freezed.dart';

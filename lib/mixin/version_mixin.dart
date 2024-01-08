@@ -1,10 +1,10 @@
 import 'dart:async';
 import 'dart:io';
 
-import 'package:bsl/event/version_event.dart';
-import 'package:bsl/management/services/config_service.dart';
-import 'package:bsl/util/global.dart';
-import 'package:bsl/widget/me/update_dialog.dart';
+import 'package:components/event/version_event.dart';
+import 'package:components/management/services/config_service.dart';
+import 'package:components/util/global.dart';
+import 'package:components/widget/me/update_dialog.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:intl/intl.dart';

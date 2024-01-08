@@ -1,7 +1,7 @@
 import 'dart:async';
 
-import 'package:bsl/management/services/repository_service.dart';
-import 'package:bsl/model/common_model.dart';
+import 'package:components/management/services/repository_service.dart';
+import 'package:components/model/common_model.dart';
 import 'package:dio/dio.dart';
 import 'package:get/get.dart';
 

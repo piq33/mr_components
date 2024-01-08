@@ -1,5 +1,5 @@
-import 'package:bsl/component/diy/print_history_body.dart';
-import 'package:bsl/widget/common/default_appbar.dart';
+import 'package:components/component/diy/print_history_body.dart';
+import 'package:components/widget/common/default_appbar.dart';
 import 'package:flutter/material.dart';
 
 class PrintHistoryPage extends StatelessWidget {

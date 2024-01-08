@@ -1,9 +1,9 @@
-import 'package:bsl/model/converter/bosocial/knowledge_scope_converter.dart';
-import 'package:bsl/model/converter/bosocial/knowledge_type_converter.dart';
-import 'package:bsl/model/converter/bosocial/status_converter.dart';
-import 'package:bsl/model/converter/datetime_converter.dart';
-import 'package:bsl/model/converter/int2bool_converter.dart';
-import 'package:bsl/model/converter/string2int_converter.dart';
+import 'package:components/model/converter/bosocial/knowledge_scope_converter.dart';
+import 'package:components/model/converter/bosocial/knowledge_type_converter.dart';
+import 'package:components/model/converter/bosocial/status_converter.dart';
+import 'package:components/model/converter/datetime_converter.dart';
+import 'package:components/model/converter/int2bool_converter.dart';
+import 'package:components/model/converter/string2int_converter.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
 import 'package:isar/isar.dart';
 

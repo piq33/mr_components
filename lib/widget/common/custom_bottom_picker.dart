@@ -1,5 +1,5 @@
-import 'package:bsl/theme/main_theme.dart';
-import 'package:bsl/util/screen_utils.dart';
+import 'package:components/theme/main_theme.dart';
+import 'package:components/util/screen_utils.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';

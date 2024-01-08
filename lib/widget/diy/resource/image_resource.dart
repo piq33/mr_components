@@ -1,10 +1,10 @@
 import 'dart:io';
 
-import 'package:bsl/mixin/diy_mixin.dart';
-import 'package:bsl/model/diy/diy_json_model.dart';
-import 'package:bsl/resource/assets.gen.dart';
-import 'package:bsl/util/ui_utils.dart';
-import 'package:bsl/widget/common/cache_image.dart';
+import 'package:components/mixin/diy_mixin.dart';
+import 'package:components/model/diy/diy_json_model.dart';
+import 'package:components/resource/assets.gen.dart';
+import 'package:components/util/ui_utils.dart';
+import 'package:components/widget/common/cache_image.dart';
 import 'package:extended_image/extended_image.dart';
 import 'package:flutter/material.dart';
 

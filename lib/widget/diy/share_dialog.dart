@@ -1,9 +1,9 @@
 import 'dart:io';
 
-import 'package:bsl/log/global_log.dart';
-import 'package:bsl/mixin/media_mixin.dart';
-import 'package:bsl/util/permission_utils.dart';
-import 'package:bsl/widget/diy/share_container.dart';
+import 'package:components/log/global_log.dart';
+import 'package:components/mixin/media_mixin.dart';
+import 'package:components/util/permission_utils.dart';
+import 'package:components/widget/diy/share_container.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:flutter_smart_dialog/flutter_smart_dialog.dart';

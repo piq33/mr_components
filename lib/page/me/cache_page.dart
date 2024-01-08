@@ -1,5 +1,5 @@
-import 'package:bsl/component/me/cache_body.dart';
-import 'package:bsl/widget/common/default_appbar.dart';
+import 'package:components/component/me/cache_body.dart';
+import 'package:components/widget/common/default_appbar.dart';
 import 'package:flutter/material.dart';
 
 class CachePage extends StatelessWidget {

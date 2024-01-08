@@ -1,8 +1,8 @@
-import 'package:bsl/log/global_log.dart';
-import 'package:bsl/management/controller/list_controller.dart';
-import 'package:bsl/management/services/repository_service.dart';
-import 'package:bsl/model/bosocial/comment_model.dart';
-import 'package:bsl/model/bsl_response.dart';
+import 'package:components/log/global_log.dart';
+import 'package:components/management/controller/list_controller.dart';
+import 'package:components/management/services/repository_service.dart';
+import 'package:components/model/bosocial/comment_model.dart';
+import 'package:components/model/bsl_response.dart';
 import 'package:dio/dio.dart';
 import 'package:get/get.dart';
 

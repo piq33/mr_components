@@ -1,6 +1,6 @@
-import 'package:bsl/api/service/course_service.dart';
-import 'package:bsl/model/bsl_response.dart';
-import 'package:bsl/model/course_models.dart';
+import 'package:components/api/service/course_service.dart';
+import 'package:components/model/bsl_response.dart';
+import 'package:components/model/course_models.dart';
 import 'package:dio/dio.dart';
 import 'package:intl/intl.dart';
 

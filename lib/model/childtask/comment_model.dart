@@ -1,6 +1,6 @@
-import 'package:bsl/model/common_model.dart';
-import 'package:bsl/model/converter/datetime_converter.dart';
-import 'package:bsl/model/converter/relationship_converter.dart';
+import 'package:components/model/common_model.dart';
+import 'package:components/model/converter/datetime_converter.dart';
+import 'package:components/model/converter/relationship_converter.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
 
 part 'comment_model.freezed.dart';

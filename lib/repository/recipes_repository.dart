@@ -1,7 +1,7 @@
-import 'package:bsl/api/service/recipes_service.dart';
-import 'package:bsl/model/bsl_response.dart';
-import 'package:bsl/model/common_model.dart';
-import 'package:bsl/model/recipes_models.dart';
+import 'package:components/api/service/recipes_service.dart';
+import 'package:components/model/bsl_response.dart';
+import 'package:components/model/common_model.dart';
+import 'package:components/model/recipes_models.dart';
 import 'package:dio/dio.dart';
 import 'package:intl/intl.dart';
 

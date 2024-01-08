@@ -1,13 +1,13 @@
 import 'dart:math';
 
-import 'package:bsl/log/global_log.dart';
-import 'package:bsl/model/album_models.dart';
-import 'package:bsl/model/converter/asset_entity_converter.dart';
-import 'package:bsl/model/converter/childtask/resource_type_converter.dart';
-import 'package:bsl/model/converter/content_type_converter.dart';
-import 'package:bsl/model/converter/datetime_converter.dart';
-import 'package:bsl/model/converter/string2int_converter.dart';
-import 'package:bsl/model/media_model.dart';
+import 'package:components/log/global_log.dart';
+import 'package:components/model/album_models.dart';
+import 'package:components/model/converter/asset_entity_converter.dart';
+import 'package:components/model/converter/childtask/resource_type_converter.dart';
+import 'package:components/model/converter/content_type_converter.dart';
+import 'package:components/model/converter/datetime_converter.dart';
+import 'package:components/model/converter/string2int_converter.dart';
+import 'package:components/model/media_model.dart';
 import 'package:dio/dio.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
 import 'package:tencentcloud_cos_sdk_plugin/pigeon.dart';

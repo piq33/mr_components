@@ -1,4 +1,4 @@
-import 'package:bsl/model/course/elective_course_model.dart';
+import 'package:components/model/course/elective_course_model.dart';
 import 'package:json_annotation/json_annotation.dart';
 
 class CancelTypeJsonConverter implements JsonConverter<CancelType, String> {

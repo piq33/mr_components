@@ -1,5 +1,5 @@
-import 'package:bsl/model/converter/int2bool_converter.dart';
-import 'package:bsl/model/converter/timestamp_converter.dart';
+import 'package:components/model/converter/int2bool_converter.dart';
+import 'package:components/model/converter/timestamp_converter.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
 
 part 'images_model.freezed.dart';
@@ -39,7 +39,8 @@ class PhotoModel with _$PhotoModel {
     @Default(0) int activityId,
   }) = _PhotoModel;
 
-  factory PhotoModel.fromJson(Map<String, Object?> json) => _$PhotoModelFromJson(json);
+  factory PhotoModel.fromJson(Map<String, Object?> json) =>
+      _$PhotoModelFromJson(json);
 }
 
 /// 获取剪影发布列表
@@ -120,5 +121,6 @@ class ImagesModel with _$ImagesModel {
     @Default('') String yearTermCode,
   }) = _ImagesModel;
 
-  factory ImagesModel.fromJson(Map<String, Object?> json) => _$ImagesModelFromJson(json);
+  factory ImagesModel.fromJson(Map<String, Object?> json) =>
+      _$ImagesModelFromJson(json);
 }

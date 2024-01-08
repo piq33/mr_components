@@ -1,6 +1,6 @@
-import 'package:bsl/api/service/conservation_service.dart';
-import 'package:bsl/model/bsl_response.dart';
-import 'package:bsl/model/conservation/daylife_model.dart';
+import 'package:components/api/service/conservation_service.dart';
+import 'package:components/model/bsl_response.dart';
+import 'package:components/model/conservation/daylife_model.dart';
 import 'package:dio/dio.dart';
 
 class ConservationRepository {

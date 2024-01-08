@@ -1,9 +1,9 @@
-import 'package:bsl/model/common_model.dart';
-import 'package:bsl/model/time_models.dart';
-import 'package:bsl/resource/assets.gen.dart';
-import 'package:bsl/theme/diy_theme.dart';
-import 'package:bsl/theme/main_theme.dart';
-import 'package:bsl/widget/media/image_preview.dart';
+import 'package:components/model/common_model.dart';
+import 'package:components/model/time_models.dart';
+import 'package:components/resource/assets.gen.dart';
+import 'package:components/theme/diy_theme.dart';
+import 'package:components/theme/main_theme.dart';
+import 'package:components/widget/media/image_preview.dart';
 import 'package:dotted_border/dotted_border.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';

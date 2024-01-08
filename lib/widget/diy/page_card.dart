@@ -1,11 +1,11 @@
 import 'dart:math';
 
-import 'package:bsl/log/global_log.dart';
-import 'package:bsl/model/diy/diy_json_model.dart';
-import 'package:bsl/util/ui_utils.dart';
-import 'package:bsl/widget/diy/resource/background_resource.dart';
-import 'package:bsl/widget/diy/resource/image_resource.dart';
-import 'package:bsl/widget/diy/resource/textfield_resource.dart';
+import 'package:components/log/global_log.dart';
+import 'package:components/model/diy/diy_json_model.dart';
+import 'package:components/util/ui_utils.dart';
+import 'package:components/widget/diy/resource/background_resource.dart';
+import 'package:components/widget/diy/resource/image_resource.dart';
+import 'package:components/widget/diy/resource/textfield_resource.dart';
 import 'package:dotted_border/dotted_border.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';

@@ -1,4 +1,4 @@
-import 'package:bsl/model/common_model.dart';
+import 'package:components/model/common_model.dart';
 import 'package:get/get.dart';
 
 typedef OnResourcePressed = Function(List<ResourceWrapper> list, int index);

@@ -1,4 +1,4 @@
-import 'package:bsl/model/bsl_response.dart';
+import 'package:components/model/bsl_response.dart';
 import 'package:easy_refresh/easy_refresh.dart';
 import 'package:flutter/painting.dart';
 import 'package:nil/nil.dart';

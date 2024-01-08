@@ -1,10 +1,10 @@
 import 'dart:async';
 
 import 'package:audioplayers/audioplayers.dart';
-import 'package:bsl/log/global_log.dart';
-import 'package:bsl/resource/assets.gen.dart';
-import 'package:bsl/router/route_observer.dart';
-import 'package:bsl/theme/media_theme.dart';
+import 'package:components/log/global_log.dart';
+import 'package:components/resource/assets.gen.dart';
+import 'package:components/router/route_observer.dart';
+import 'package:components/theme/media_theme.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:lottie/lottie.dart';
@@ -57,7 +57,7 @@ class VoicePlayer extends StatefulWidget {
     this.path,
     this.onDeletePressed,
     super.key,
-  })  : assert(url != null || path != null);
+  }) : assert(url != null || path != null);
 
   final double? width;
   final double height;

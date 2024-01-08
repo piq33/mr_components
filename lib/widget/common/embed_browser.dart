@@ -1,4 +1,4 @@
-import 'package:bsl/log/global_log.dart';
+import 'package:components/log/global_log.dart';
 import 'package:flutter/material.dart';
 import 'package:webview_flutter/webview_flutter.dart';
 

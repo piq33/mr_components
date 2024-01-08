@@ -1,6 +1,6 @@
-import 'package:bsl/component/notification/notification_body.dart';
-import 'package:bsl/theme/notification_theme.dart';
-import 'package:bsl/widget/common/default_appbar.dart';
+import 'package:components/component/notification/notification_body.dart';
+import 'package:components/theme/notification_theme.dart';
+import 'package:components/widget/common/default_appbar.dart';
 import 'package:flutter/material.dart';
 
 class NotificationPage extends StatelessWidget {

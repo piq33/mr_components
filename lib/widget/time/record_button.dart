@@ -1,5 +1,5 @@
-import 'package:bsl/resource/assets.gen.dart';
-import 'package:bsl/theme/time_theme.dart';
+import 'package:components/resource/assets.gen.dart';
+import 'package:components/theme/time_theme.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 

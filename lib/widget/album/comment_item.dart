@@ -1,13 +1,13 @@
 import 'dart:async';
 
-import 'package:bsl/model/album/comment_model.dart';
-import 'package:bsl/resource/assets.gen.dart';
-import 'package:bsl/theme/album_theme.dart';
-import 'package:bsl/theme/bosocial_theme.dart';
-import 'package:bsl/theme/main_theme.dart';
-import 'package:bsl/widget/album/reply_list.dart';
-import 'package:bsl/widget/common/relationship/relationship_tag.dart';
-import 'package:bsl/widget/common/round_avatar.dart';
+import 'package:components/model/album/comment_model.dart';
+import 'package:components/resource/assets.gen.dart';
+import 'package:components/theme/album_theme.dart';
+import 'package:components/theme/bosocial_theme.dart';
+import 'package:components/theme/main_theme.dart';
+import 'package:components/widget/album/reply_list.dart';
+import 'package:components/widget/common/relationship/relationship_tag.dart';
+import 'package:components/widget/common/round_avatar.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:intl/intl.dart';

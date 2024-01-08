@@ -1,4 +1,4 @@
-import 'package:bsl/model/school_models.dart';
+import 'package:components/model/school_models.dart';
 import 'package:json_annotation/json_annotation.dart';
 
 class StudentStatusJsonConverter implements JsonConverter<StudentStatus, int> {

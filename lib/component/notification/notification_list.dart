@@ -1,10 +1,10 @@
-import 'package:bsl/component/notification/notification_item.dart';
-import 'package:bsl/log/global_log.dart';
-import 'package:bsl/management/services/repository_service.dart';
-import 'package:bsl/model/bsl_response.dart';
-import 'package:bsl/model/notification/notification_model.dart';
-import 'package:bsl/widget/common/empty.dart';
-import 'package:bsl/widget/common/list_loading.dart';
+import 'package:components/component/notification/notification_item.dart';
+import 'package:components/log/global_log.dart';
+import 'package:components/management/services/repository_service.dart';
+import 'package:components/model/bsl_response.dart';
+import 'package:components/model/notification/notification_model.dart';
+import 'package:components/widget/common/empty.dart';
+import 'package:components/widget/common/list_loading.dart';
 import 'package:dio/dio.dart';
 import 'package:easy_refresh/easy_paging.dart';
 import 'package:flutter/material.dart';

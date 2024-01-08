@@ -1,9 +1,9 @@
 import 'dart:async';
 
-import 'package:bsl/api/service/survey_service.dart';
-import 'package:bsl/config.dart';
-import 'package:bsl/model/bsl_response.dart';
-import 'package:bsl/model/survey/survey_model.dart';
+import 'package:components/api/service/survey_service.dart';
+import 'package:components/config.dart';
+import 'package:components/model/bsl_response.dart';
+import 'package:components/model/survey/survey_model.dart';
 import 'package:dio/dio.dart';
 
 class SurveyRepository {

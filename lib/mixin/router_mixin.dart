@@ -1,15 +1,15 @@
 import 'dart:convert';
 
-import 'package:bsl/log/global_log.dart';
-import 'package:bsl/model/album/album_model.dart';
-import 'package:bsl/model/attendance/attendance_model.dart';
-import 'package:bsl/model/bill_models.dart';
-import 'package:bsl/model/childtask/childtask_model.dart';
-import 'package:bsl/model/common_model.dart';
-import 'package:bsl/model/conservation/daylife_model.dart';
-import 'package:bsl/model/recipes/recipes_model.dart';
-import 'package:bsl/model/survey/survey_model.dart';
-import 'package:bsl/model/week_plan/week_plan_model.dart';
+import 'package:components/log/global_log.dart';
+import 'package:components/model/album/album_model.dart';
+import 'package:components/model/attendance/attendance_model.dart';
+import 'package:components/model/bill_models.dart';
+import 'package:components/model/childtask/childtask_model.dart';
+import 'package:components/model/common_model.dart';
+import 'package:components/model/conservation/daylife_model.dart';
+import 'package:components/model/recipes/recipes_model.dart';
+import 'package:components/model/survey/survey_model.dart';
+import 'package:components/model/week_plan/week_plan_model.dart';
 import 'package:fluttertoast/fluttertoast.dart';
 import 'package:get/get.dart';
 

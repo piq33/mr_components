@@ -1,5 +1,5 @@
-import 'package:bsl/model/converter/datetime_converter.dart';
-import 'package:bsl/model/converter/int2bool_converter.dart';
+import 'package:components/model/converter/datetime_converter.dart';
+import 'package:components/model/converter/int2bool_converter.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
 
 part 'daylife_model.freezed.dart';

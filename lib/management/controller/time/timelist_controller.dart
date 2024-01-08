@@ -1,11 +1,11 @@
 import 'dart:async';
 
-import 'package:bsl/event/timeline_event.dart';
-import 'package:bsl/log/global_log.dart';
-import 'package:bsl/management/services/repository_service.dart';
-import 'package:bsl/management/services/student_service.dart';
-import 'package:bsl/model/time_models.dart';
-import 'package:bsl/util/global.dart';
+import 'package:components/event/timeline_event.dart';
+import 'package:components/log/global_log.dart';
+import 'package:components/management/services/repository_service.dart';
+import 'package:components/management/services/student_service.dart';
+import 'package:components/model/time_models.dart';
+import 'package:components/util/global.dart';
 import 'package:dio/dio.dart';
 import 'package:get/get.dart';
 

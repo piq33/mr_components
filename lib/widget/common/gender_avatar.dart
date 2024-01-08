@@ -1,7 +1,7 @@
-import 'package:bsl/model/common_model.dart';
-import 'package:bsl/resource/assets.gen.dart';
-import 'package:bsl/theme/gender_theme.dart';
-import 'package:bsl/widget/common/round_avatar.dart';
+import 'package:components/model/common_model.dart';
+import 'package:components/resource/assets.gen.dart';
+import 'package:components/theme/gender_theme.dart';
+import 'package:components/widget/common/round_avatar.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 

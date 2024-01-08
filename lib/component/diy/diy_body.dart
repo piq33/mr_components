@@ -1,8 +1,8 @@
-import 'package:bsl/component/diy/popular_template_grid.dart';
-import 'package:bsl/resource/assets.gen.dart';
-import 'package:bsl/theme/diy_theme.dart';
-import 'package:bsl/theme/main_theme.dart';
-import 'package:bsl/widget/common/default_appbar.dart';
+import 'package:components/component/diy/popular_template_grid.dart';
+import 'package:components/resource/assets.gen.dart';
+import 'package:components/theme/diy_theme.dart';
+import 'package:components/theme/main_theme.dart';
+import 'package:components/widget/common/default_appbar.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';

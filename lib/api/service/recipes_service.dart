@@ -1,6 +1,6 @@
-import 'package:bsl/api/bsl_api.dart';
-import 'package:bsl/model/bsl_response.dart';
-import 'package:bsl/model/recipes_models.dart';
+import 'package:components/api/bsl_api.dart';
+import 'package:components/model/bsl_response.dart';
+import 'package:components/model/recipes_models.dart';
 import 'package:dio/dio.dart';
 import 'package:retrofit/retrofit.dart';
 
@@ -20,7 +20,7 @@ abstract class RecipesRemoteApi {
   @GET(forwardGetApi)
   Future<BslResponse<List<MenuDetailModel>>> fetchRecipesByDate({
     @Query('uri')
-        String uri = '/v1/kindergarten/bussiness/childcookbook/getByDate',
+    String uri = '/v1/kindergarten/bussiness/childcookbook/getByDate',
     @Query('env') String env = 'kindergarten',
 
     /// 学校编码

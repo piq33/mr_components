@@ -1,4 +1,4 @@
-import 'package:bsl/component/me/potential/me_body.dart';
+import 'package:components/component/me/potential/me_body.dart';
 import 'package:flutter/material.dart';
 
 class PotentialMePage extends StatelessWidget {

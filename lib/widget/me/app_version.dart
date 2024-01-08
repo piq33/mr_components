@@ -1,8 +1,8 @@
 import 'package:badges/badges.dart' as badges;
-import 'package:bsl/config.dart';
-import 'package:bsl/theme/main_theme.dart';
-import 'package:bsl/theme/me_theme.dart';
-import 'package:bsl/util/ui_utils.dart';
+import 'package:components/config.dart';
+import 'package:components/theme/main_theme.dart';
+import 'package:components/theme/me_theme.dart';
+import 'package:components/util/ui_utils.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:package_info_plus/package_info_plus.dart';

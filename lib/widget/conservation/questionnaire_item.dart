@@ -1,8 +1,8 @@
-import 'package:bsl/model/conservation/daylife_model.dart';
-import 'package:bsl/util/list_utils.dart';
-import 'package:bsl/widget/conservation/questionnaire/content_box.dart';
-import 'package:bsl/widget/conservation/questionnaire/evaluate_box.dart';
-import 'package:bsl/widget/conservation/questionnaire/upload_box.dart';
+import 'package:components/model/conservation/daylife_model.dart';
+import 'package:components/util/list_utils.dart';
+import 'package:components/widget/conservation/questionnaire/content_box.dart';
+import 'package:components/widget/conservation/questionnaire/evaluate_box.dart';
+import 'package:components/widget/conservation/questionnaire/upload_box.dart';
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
 

@@ -1,10 +1,10 @@
-import 'package:bsl/model/diy/diy_model.dart';
-import 'package:bsl/model/diy_models.dart';
-import 'package:bsl/resource/assets.gen.dart';
-import 'package:bsl/resource/colors.gen.dart';
-import 'package:bsl/theme/diy_theme.dart';
-import 'package:bsl/theme/main_theme.dart';
-import 'package:bsl/widget/common/cache_image.dart';
+import 'package:components/model/diy/diy_model.dart';
+import 'package:components/model/diy_models.dart';
+import 'package:components/resource/assets.gen.dart';
+import 'package:components/resource/colors.gen.dart';
+import 'package:components/theme/diy_theme.dart';
+import 'package:components/theme/main_theme.dart';
+import 'package:components/widget/common/cache_image.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:intl/intl.dart';

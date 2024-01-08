@@ -1,10 +1,10 @@
 import 'dart:io';
 
-import 'package:bsl/log/global_log.dart';
-import 'package:bsl/theme/main_theme.dart';
-import 'package:bsl/theme/me_theme.dart';
-import 'package:bsl/widget/common/custom_dialog.dart';
-import 'package:bsl/widget/form/bsl_single_row_button_formfield.dart';
+import 'package:components/log/global_log.dart';
+import 'package:components/theme/main_theme.dart';
+import 'package:components/theme/me_theme.dart';
+import 'package:components/widget/common/custom_dialog.dart';
+import 'package:components/widget/form/bsl_single_row_button_formfield.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';

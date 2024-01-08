@@ -1,4 +1,4 @@
-import 'package:bsl/model/time_models.dart';
+import 'package:components/model/time_models.dart';
 
 enum OperationType {
   add,

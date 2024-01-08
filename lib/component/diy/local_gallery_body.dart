@@ -1,6 +1,6 @@
-import 'package:bsl/management/mobx/diy/local_gallery_store.dart';
-import 'package:bsl/widget/common/cache_image.dart';
-import 'package:bsl/widget/common/list_loading.dart';
+import 'package:components/management/mobx/diy/local_gallery_store.dart';
+import 'package:components/widget/common/cache_image.dart';
+import 'package:components/widget/common/list_loading.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_mobx/flutter_mobx.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';

@@ -1,7 +1,7 @@
-import 'package:bsl/api/bsl_api.dart';
-import 'package:bsl/model/bsl_response.dart';
-import 'package:bsl/model/childtask/childtask_model.dart';
-import 'package:bsl/model/childtask/comment_model.dart';
+import 'package:components/api/bsl_api.dart';
+import 'package:components/model/bsl_response.dart';
+import 'package:components/model/childtask/childtask_model.dart';
+import 'package:components/model/childtask/comment_model.dart';
 import 'package:dio/dio.dart';
 import 'package:retrofit/retrofit.dart';
 
@@ -21,7 +21,7 @@ abstract class ChildtaskRemoteApi {
   @GET(forwardGetApi)
   Future<BslResponse<List<ChildtaskInfoModel>>> fetchChildtaskInfo({
     @Query('uri')
-        String uri = '/v1/kindergarten/bussiness/childtask/listWithDate',
+    String uri = '/v1/kindergarten/bussiness/childtask/listWithDate',
     @Query('env') String env = 'kindergarten',
 
     /// 学校编码

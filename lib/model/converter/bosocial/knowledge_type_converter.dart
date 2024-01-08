@@ -1,4 +1,4 @@
-import 'package:bsl/model/bosocial_models.dart';
+import 'package:components/model/bosocial_models.dart';
 import 'package:json_annotation/json_annotation.dart';
 
 class KnowledgeTypeJsonConverter implements JsonConverter<KnowledgeType, int> {

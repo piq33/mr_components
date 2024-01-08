@@ -1,10 +1,10 @@
 import 'dart:convert';
 
-import 'package:bsl/api/service/diy_service.dart';
-import 'package:bsl/model/bsl_response.dart';
-import 'package:bsl/model/common_model.dart';
-import 'package:bsl/model/diy_models.dart';
-import 'package:bsl/model/time/time_model.dart';
+import 'package:components/api/service/diy_service.dart';
+import 'package:components/model/bsl_response.dart';
+import 'package:components/model/common_model.dart';
+import 'package:components/model/diy_models.dart';
+import 'package:components/model/time/time_model.dart';
 import 'package:dio/dio.dart';
 
 class DiyRepository {

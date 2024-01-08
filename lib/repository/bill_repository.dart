@@ -1,7 +1,7 @@
-import 'package:bsl/api/service/bill_service.dart';
-import 'package:bsl/model/bill_models.dart';
-import 'package:bsl/model/bsl_response.dart';
-import 'package:bsl/model/school_models.dart';
+import 'package:components/api/service/bill_service.dart';
+import 'package:components/model/bill_models.dart';
+import 'package:components/model/bsl_response.dart';
+import 'package:components/model/school_models.dart';
 import 'package:dio/dio.dart';
 
 class BillRepository {

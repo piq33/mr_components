@@ -1,11 +1,11 @@
 import 'dart:collection';
 
-import 'package:bsl/log/global_log.dart';
-import 'package:bsl/management/services/auth_service.dart';
-import 'package:bsl/management/services/repository_service.dart';
-import 'package:bsl/management/services/student_service.dart';
-import 'package:bsl/model/navigation_model.dart';
-import 'package:bsl/model/school_models.dart';
+import 'package:components/log/global_log.dart';
+import 'package:components/management/services/auth_service.dart';
+import 'package:components/management/services/repository_service.dart';
+import 'package:components/management/services/student_service.dart';
+import 'package:components/model/navigation_model.dart';
+import 'package:components/model/school_models.dart';
 import 'package:dio/dio.dart';
 import 'package:get/get.dart';
 

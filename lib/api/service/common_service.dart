@@ -1,8 +1,8 @@
-import 'package:bsl/api/bsl_api.dart';
-import 'package:bsl/model/bsl_response.dart';
-import 'package:bsl/model/common_model.dart';
-import 'package:bsl/model/navigation_model.dart';
-import 'package:bsl/model/zhaojiao_response.dart';
+import 'package:components/api/bsl_api.dart';
+import 'package:components/model/bsl_response.dart';
+import 'package:components/model/common_model.dart';
+import 'package:components/model/navigation_model.dart';
+import 'package:components/model/zhaojiao_response.dart';
 import 'package:dio/dio.dart';
 import 'package:retrofit/retrofit.dart';
 
@@ -105,7 +105,8 @@ abstract class CommonRemoteApi {
   /// 提交联系方式
   @POST(forwardPostApi)
   Future<BslResponse<String>> addContact({
-    @Query('uri') String uri = '/apis/bsmcore/potentialStudent/add?assignUser=false',
+    @Query('uri')
+    String uri = '/apis/bsmcore/potentialStudent/add?assignUser=false',
     @Query('env') String env = 'kindergarten',
     @Body() required ContactReq req,
     @CancelRequest() CancelToken? cancelToken,

@@ -1,4 +1,4 @@
-import 'package:bsl/model/auth_model.dart';
+import 'package:components/model/auth_model.dart';
 import 'package:json_annotation/json_annotation.dart';
 
 class UserIdentityJsonConverter implements JsonConverter<UserIdentity, String> {

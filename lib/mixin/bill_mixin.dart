@@ -1,6 +1,6 @@
-import 'package:bsl/log/global_log.dart';
-import 'package:bsl/management/services/repository_service.dart';
-import 'package:bsl/model/bill_models.dart';
+import 'package:components/log/global_log.dart';
+import 'package:components/management/services/repository_service.dart';
+import 'package:components/model/bill_models.dart';
 import 'package:dio/dio.dart';
 import 'package:get/get.dart';
 

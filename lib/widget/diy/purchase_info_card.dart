@@ -1,10 +1,10 @@
-import 'package:bsl/model/common_model.dart';
-import 'package:bsl/resource/colors.gen.dart';
-import 'package:bsl/theme/main_theme.dart';
-import 'package:bsl/widget/common/marquee_text.dart';
-import 'package:bsl/widget/common/region_bottom_picker.dart';
-import 'package:bsl/widget/form/bsl_single_row_button_formfield.dart';
-import 'package:bsl/widget/form/bsl_single_row_text_formfield.dart';
+import 'package:components/model/common_model.dart';
+import 'package:components/resource/colors.gen.dart';
+import 'package:components/theme/main_theme.dart';
+import 'package:components/widget/common/marquee_text.dart';
+import 'package:components/widget/common/region_bottom_picker.dart';
+import 'package:components/widget/form/bsl_single_row_button_formfield.dart';
+import 'package:components/widget/form/bsl_single_row_text_formfield.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:marquee/marquee.dart';

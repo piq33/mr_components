@@ -1,13 +1,13 @@
 import 'dart:async';
 
 import 'package:audioplayers/audioplayers.dart';
-import 'package:bsl/log/global_log.dart';
-import 'package:bsl/management/services/repository_service.dart';
-import 'package:bsl/model/diy_models.dart';
-import 'package:bsl/resource/colors.gen.dart';
-import 'package:bsl/theme/main_theme.dart';
-import 'package:bsl/util/list_utils.dart';
-import 'package:bsl/widget/diy/music_item.dart';
+import 'package:components/log/global_log.dart';
+import 'package:components/management/services/repository_service.dart';
+import 'package:components/model/diy_models.dart';
+import 'package:components/resource/colors.gen.dart';
+import 'package:components/theme/main_theme.dart';
+import 'package:components/util/list_utils.dart';
+import 'package:components/widget/diy/music_item.dart';
 import 'package:dio/dio.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';

@@ -1,5 +1,5 @@
-import 'package:bsl/config.dart';
-import 'package:bsl/log/global_log.dart';
+import 'package:components/config.dart';
+import 'package:components/log/global_log.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:talker_flutter/talker_flutter.dart';

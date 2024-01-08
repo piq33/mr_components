@@ -1,5 +1,5 @@
-import 'package:bsl/model/common_model.dart';
-import 'package:bsl/repository/common_repository.dart';
+import 'package:components/model/common_model.dart';
+import 'package:components/repository/common_repository.dart';
 import 'package:dio/dio.dart';
 import 'package:mobx/mobx.dart';
 

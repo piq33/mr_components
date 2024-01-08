@@ -1,12 +1,12 @@
 import 'dart:async';
 
-import 'package:bsl/api/service/common_service.dart';
-import 'package:bsl/log/global_log.dart';
-import 'package:bsl/management/services/repository_service.dart';
-import 'package:bsl/model/auth_model.dart';
-import 'package:bsl/model/bosocial_models.dart';
-import 'package:bsl/model/common_model.dart';
-import 'package:bsl/repository/common_repository.dart';
+import 'package:components/api/service/common_service.dart';
+import 'package:components/log/global_log.dart';
+import 'package:components/management/services/repository_service.dart';
+import 'package:components/model/auth_model.dart';
+import 'package:components/model/bosocial_models.dart';
+import 'package:components/model/common_model.dart';
+import 'package:components/repository/common_repository.dart';
 import 'package:get/get.dart';
 import 'package:isar/isar.dart';
 import 'package:path/path.dart' as p;

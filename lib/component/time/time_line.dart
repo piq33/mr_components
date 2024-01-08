@@ -1,15 +1,15 @@
 import 'dart:math';
 
-import 'package:bsl/component/time/time_list.dart';
-import 'package:bsl/management/controller/time/timeline_controller.dart';
-import 'package:bsl/management/controller/time/timelist_controller.dart';
-import 'package:bsl/model/time_models.dart';
-import 'package:bsl/resource/colors.gen.dart';
-import 'package:bsl/theme/main_theme.dart';
-import 'package:bsl/theme/time_theme.dart';
-import 'package:bsl/util/screen_utils.dart';
-import 'package:bsl/widget/common/empty.dart';
-import 'package:bsl/widget/common/expandable.dart';
+import 'package:components/component/time/time_list.dart';
+import 'package:components/management/controller/time/timeline_controller.dart';
+import 'package:components/management/controller/time/timelist_controller.dart';
+import 'package:components/model/time_models.dart';
+import 'package:components/resource/colors.gen.dart';
+import 'package:components/theme/main_theme.dart';
+import 'package:components/theme/time_theme.dart';
+import 'package:components/util/screen_utils.dart';
+import 'package:components/widget/common/empty.dart';
+import 'package:components/widget/common/expandable.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';

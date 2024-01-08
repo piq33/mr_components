@@ -1,7 +1,7 @@
-import 'package:bsl/model/converter/activity/activity_status_converter.dart';
-import 'package:bsl/model/converter/activity/apply_status_converter.dart';
-import 'package:bsl/model/converter/datetime_converter.dart';
-import 'package:bsl/model/converter/string2int_converter.dart';
+import 'package:components/model/converter/activity/activity_status_converter.dart';
+import 'package:components/model/converter/activity/apply_status_converter.dart';
+import 'package:components/model/converter/datetime_converter.dart';
+import 'package:components/model/converter/string2int_converter.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
 
 part 'activity_model.freezed.dart';

@@ -1,11 +1,11 @@
 import 'dart:async';
 
 import 'package:audioplayers/audioplayers.dart';
-import 'package:bsl/log/global_log.dart';
-import 'package:bsl/model/diy_models.dart';
-import 'package:bsl/resource/assets.gen.dart';
-import 'package:bsl/widget/diy/page_card.dart';
-import 'package:bsl/widget/diy/paper_control.dart';
+import 'package:components/log/global_log.dart';
+import 'package:components/model/diy_models.dart';
+import 'package:components/resource/assets.gen.dart';
+import 'package:components/widget/diy/page_card.dart';
+import 'package:components/widget/diy/paper_control.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:nil/nil.dart';

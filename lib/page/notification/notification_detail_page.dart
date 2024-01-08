@@ -1,6 +1,6 @@
-import 'package:bsl/component/notification/notification_detail_body.dart';
-import 'package:bsl/management/services/student_service.dart';
-import 'package:bsl/widget/common/default_appbar.dart';
+import 'package:components/component/notification/notification_detail_body.dart';
+import 'package:components/management/services/student_service.dart';
+import 'package:components/widget/common/default_appbar.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 

@@ -1,4 +1,4 @@
-import 'package:bsl/model/navigation_model.dart';
+import 'package:components/model/navigation_model.dart';
 import 'package:json_annotation/json_annotation.dart';
 
 class EntranceTypeJsonConverter implements JsonConverter<EntranceType, int> {

@@ -1,12 +1,12 @@
 import 'dart:collection';
 
-import 'package:bsl/model/common_model.dart';
-import 'package:bsl/model/converter/gender_converter.dart';
-import 'package:bsl/model/converter/string2bool_converter.dart';
-import 'package:bsl/model/converter/string2double_converter.dart';
-import 'package:bsl/model/converter/string2int_converter.dart';
-import 'package:bsl/model/converter/timestamp_converter.dart';
-import 'package:bsl/model/school_models.dart';
+import 'package:components/model/common_model.dart';
+import 'package:components/model/converter/gender_converter.dart';
+import 'package:components/model/converter/string2bool_converter.dart';
+import 'package:components/model/converter/string2double_converter.dart';
+import 'package:components/model/converter/string2int_converter.dart';
+import 'package:components/model/converter/timestamp_converter.dart';
+import 'package:components/model/school_models.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
 
 part 'bill_model.freezed.dart';

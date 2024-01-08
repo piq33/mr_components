@@ -1,5 +1,5 @@
-import 'package:bsl/component/download/download_body.dart';
-import 'package:bsl/resource/assets.gen.dart';
+import 'package:components/component/download/download_body.dart';
+import 'package:components/resource/assets.gen.dart';
 import 'package:flutter/material.dart';
 
 class DownloadPage extends StatelessWidget {

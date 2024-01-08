@@ -1,7 +1,7 @@
-import 'package:bsl/model/time_models.dart';
-import 'package:bsl/theme/time_theme.dart';
-import 'package:bsl/util/grid_view_height.dart';
-import 'package:bsl/widget/time/warpper_box.dart';
+import 'package:components/model/time_models.dart';
+import 'package:components/theme/time_theme.dart';
+import 'package:components/util/grid_view_height.dart';
+import 'package:components/widget/time/warpper_box.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 

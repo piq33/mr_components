@@ -1,7 +1,7 @@
 import 'dart:async';
 
-import 'package:bsl/widget/common/banner/banner_indicator.dart';
-import 'package:bsl/widget/common/cache_page_view.dart';
+import 'package:components/widget/common/banner/banner_indicator.dart';
+import 'package:components/widget/common/cache_page_view.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
