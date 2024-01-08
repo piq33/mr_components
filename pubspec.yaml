@@ -1,4 +1,4 @@
-name: bsl
+name: components
 description: "A new Flutter package project."
 version: 0.0.1
 homepage:
@@ -36,7 +36,7 @@ dependencies:
   url_launcher: ^6.2.2
   # 存储
   simple_saver:
-    path: simple_saver
+    git: https://github.com/pye52/simple_saver.git
   # 腾讯云
   tencentcloud_cos_sdk_plugin: ^1.0.9
   path_provider: ^2.1.1
@@ -109,7 +109,7 @@ dependencies:
   msh_checkbox: ^2.0.1
   dropdown_button2: ^2.3.9
   paper_transition:
-    path: paper_transition
+    git: https://gitee.com/dango/paper_transition.git
   audio_video_progress_bar: ^2.0.1
   flutter_inset_box_shadow: ^1.0.8
   signature: ^5.4.1
